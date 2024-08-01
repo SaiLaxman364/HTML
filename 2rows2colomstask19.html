@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    /* Basic Reset */
+    body, h1, table, th, td {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+
+    table {
+      width: 50%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      background-color: hsl(0, 0%, 100%);
+      border: 2px solid hsl(0, 77%, 24%);
+    }
+
+    th, td {
+      border: 1px solid hsl(0, 0%, 80%);
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: hsl(210, 100%, 50%);
+      color: hsl(0, 0%, 100%);
+    }
+
+    tr:nth-child(even) {
+      background-color: hsl(210, 100%, 95%);
+    }
+
+    tr:nth-child(odd) {
+      background-color: hsl(210, 100%, 85%);
+    }
+
+    h1 {
+      text-align: center;
+      color: hsl(210, 100%, 30%);
+    }
+  </style>
+</head>
+<body>
+  <h1>2x2 Table with HSL Styling</h1>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Employee</th>
+        <th>companyname</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Laxman</td>
+        <td>MANTHASTECH</td>
+      </tr>
+      <tr>
+        <td>krishna</td>
+        <td>Justdial</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

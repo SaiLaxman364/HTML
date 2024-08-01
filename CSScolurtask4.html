@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Colors Example</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 20px;
+        }
+        
+        .box {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .named-color {
+            background-color: coral;
+        }
+        
+        .hex-color {
+            background-color: #3498db; 
+        }
+        
+        .rgb-color {
+            background-color: rgb(46, 204, 113); 
+        }
+        
+        .rgba-color {
+            background-color: rgba(255, 99, 71, 0.7);
+        }
+        
+        .hsl-color {
+            background-color: hsl(120, 100%, 50%);
+        }
+        
+        .hsla-color {
+            background-color: hsla(200, 100%, 50%, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box named-color">APPLE</div>
+        <div class="box hex-color">SAMSUNG</div>
+        <div class="box rgb-color">REALME</div>
+        <div class="box rgba-color">OPPO</div>
+        <div class="box hsl-color">VIVO</div>
+        <div class="box hsla-color">HONOUR</div>
+    </div>
+</body>
+</html>

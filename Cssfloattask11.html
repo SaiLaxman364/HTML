@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Float Example</title>
+    <style>
+        .container {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        
+        .float-left {
+            float: left;
+            width: 200px;
+            height: 150px;
+            margin-right: 10px;
+            background-color:aqua;
+            color:black;
+            padding: 10px;
+            box-sizing: border-box;
+        }    
+
+        
+        .float-right {
+            float: right;
+            width: 200px;
+            height: 150px;
+            margin-left: 10px;
+            background-color: #2196F3;
+            color: white;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container clearfix">
+        <div class="float-left">
+            Apple
+        </div>
+        <div class="float-right">
+            OPPO
+        </div>
+        <p>
+            Apple Inc. is a global technology leader renowned for its innovation and design excellence. Founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in 1976, the company revolutionized personal computing with the Apple I and II. Today, Apple is celebrated for its iconic products, including the iPhone, iPad, and MacBook. With a focus on sleek aesthetics and user-friendly interfaces, Apple continues to drive technological advancement and shape the future of digital experiences.
+        </p>
+    </div>
+</body>
+</html>
